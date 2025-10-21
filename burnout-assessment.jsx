@@ -133,9 +133,9 @@ const BurnoutAssessment = () => {
       <div className="max-w-3xl mx-auto">
         {/* Header */}
         <div className="text-center mb-8">
-          <div className="inline-flex items-center gap-3 bg-white/90 backdrop-blur rounded-2xl px-6 py-4 shadow-lg mb-4">
+          <div className="inline-flex items-center gap-3 bg-white/90 backdrop-blur rounded-full px-6 py-4 shadow-lg mb-4">
             <Flame className="w-8 h-8 text-orange-500" />
-            <h1 className="text-3xl font-bold bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent">
+            <h1 className="text-2xl font-bold bg-gradient-to-r from-amber-600 to-red-600 bg-clip-text text-transparent">
               Burnout Assessment
             </h1>
           </div>
